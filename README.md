@@ -29,13 +29,18 @@
   ```
 
 ## Install Docker Engine
-```
-scp ./Script/install-docker.sh ACCOUNT@IP:/home/ACCOUNT
+* On local
+  ```
+  scp ./Script/install-docker.sh ACCOUNT@IP:/home/ACCOUNT
+  ```
+* On VM
+  ```
+  cd ~
+  
+  chmod 777 install-docker.sh
 
-chmod 777 install-docker.sh
-
-sudo ./install-docker.sh
-```
+  sudo ./install-docker.sh
+  ```
 
 ## Upload flask-sample to VM
 ```
