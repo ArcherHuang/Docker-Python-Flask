@@ -77,6 +77,8 @@
 ## Add VM Port
 * On Chrome
   * Login Azure Portal from Browser > Click `Networking` > Click `Add inbound security rule` > Click `Destination port ranges` > Input `80` > Click `Add`
+  ![](./Images/Port1.png)
+  ![](./Images/Port2.png)
 
 ## Run Docker Image
 * On VM
