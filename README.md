@@ -11,6 +11,7 @@
 - [Add VM Port](#add-vm-port)
 - [Run Docker Image](#run-docker-image)
 - [Check Docker Container](#check-docker-container)
+- [Check API from Browser](#check-api-from-browser)
 - [Docker Container Log](#docker-container-log)
 - [Into the Container](#into-the-container)
 - [Stop Container](#stop-container)
@@ -102,8 +103,7 @@
 
 ## Check API from Browser
 * On Local
-
-![./images/check-api.png]
+  ![](./Images/check-api.png)
 
 ## Docker Container Log
 * On VM
