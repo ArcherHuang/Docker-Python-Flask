@@ -28,7 +28,7 @@
 ## Logging in to VM
 * On Local
   ```
-  ssh ACCOUNT@IP
+  ssh VM-ACCOUNT@VM-IP
   ```
 
 ## Install Docker Engine
@@ -38,7 +38,7 @@
   
   cd to Docker-Python-Flask Repository
   
-  scp ./Script/install-docker.sh ACCOUNT@IP:/home/ACCOUNT
+  scp ./Script/install-docker.sh VM-ACCOUNT@VM-IP:/home/VM-ACCOUNT
   ```
 * On VM
   ```
@@ -56,7 +56,7 @@
   ```
 * On Local
   ```
-  scp flask-sample/* ACCOUNT@IP:/home/ACCOUNT/flask-sample
+  scp flask-sample/* VM-ACCOUNT@VM-IP:/home/VM-ACCOUNT/flask-sample
   ```
 
 ## Build Docker Image
@@ -94,7 +94,7 @@
 ## Run Docker Image
 * On VM
   ```
-  sudo docker run -d -p 80:80 --name=test-dev -v /home/ACCOUNT/dataset-out:/dataset -v /home/ACCOUNT/model-out:/model mmosconii/docker-python:0.1
+  sudo docker run -d -p 80:80 --name=test-dev -v /home/VM-ACCOUNT/dataset-out:/dataset -v /home/VM-ACCOUNT/model-out:/model mmosconii/docker-python:0.1
   ```
 
 ## Check Docker Container
