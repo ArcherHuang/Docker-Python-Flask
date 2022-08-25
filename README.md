@@ -2,7 +2,7 @@
 
 ## Contents
 - [Flow](#flow)
-- [Logging in to VM](#logging-in-to-vm))
+- [Logging in to VM](#logging-in-to-vm)
 - [Install Docker Engine](#install-docker-engine)
 - [Upload flask-sample to VM](#upload-flask-sample-to-vm)
 - [Build Docker Image](#build-docker-image)
