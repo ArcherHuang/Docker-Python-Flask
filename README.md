@@ -43,6 +43,10 @@
   ```
 
 ## Upload flask-sample to VM
+* On VM
+  ```
+  mkdir ~/flask-sample
+  ```
 * On Local
   ```
   scp flask-sample/* ACCOUNT@IP:/home/ACCOUNT/flask-sample
