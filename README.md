@@ -76,5 +76,5 @@ sudo docker rm CONTAINER-ID
 
 # Remove Docker Image
 ```
-sudo docker prune -a
+sudo docker image prune -a
 ```
