@@ -22,7 +22,7 @@
 ## Flow
 ![](./Images/flow.png)
 
-## Login
+## Logging in to VM
 * On Local
   ```
   ssh ACCOUNT@IP
