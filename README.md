@@ -61,3 +61,19 @@ sudo docker logs -f test-dev
 ```
 sudo docker exec -it test-dev bash
 ```
+
+# Stop Container
+```
+sudo docker ps -a
+sudo docker stop CONTAINER-ID
+```
+
+# Remove Container
+```
+sudo docker rm CONTAINER-ID
+```
+
+# Remove Docker Image
+```
+sudo docker prune -a
+```
