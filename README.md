@@ -84,7 +84,7 @@
   sudo docker run -d -p 80:80 --name=test-dev -v /home/ACCOUNT/dataset-out:/dataset -v /home/ACCOUNT/model-out:/model mmosconii/docker-python:0.1
   ```
 
-# Check Docker Container
+## Check Docker Container
 * On VM
   ```
   sudo docker ps -a
