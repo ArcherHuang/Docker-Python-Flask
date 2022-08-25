@@ -23,13 +23,13 @@
 ![](./Images/flow.png)
 
 ## Login
-* On local
+* On Local
   ```
   ssh ACCOUNT@IP
   ```
 
 ## Install Docker Engine
-* On local
+* On Local
   ```
   scp ./Script/install-docker.sh ACCOUNT@IP:/home/ACCOUNT
   ```
@@ -43,69 +43,86 @@
   ```
 
 ## Upload flask-sample to VM
-```
-scp flask-sample/* ACCOUNT@IP:/home/ACCOUNT/flask-sample
-```
+* On Local
+  ```
+  scp flask-sample/* ACCOUNT@IP:/home/ACCOUNT/flask-sample
+  ```
 
 ## Build Docker Image
-```
-sudo docker build -t mmosconii/docker-python:0.1 .
-```
+* On VM
+  ```
+  sudo docker build -t mmosconii/docker-python:0.1 .
+  ```
 
 ## List Docker Image
-```
-sudo docker images
-```
+* On VM
+  ```
+  sudo docker images
+  ```
 
 ## Create Folder
-```
-cd ~
-mkdir dataset-out
-mkdir model-out
+* On VM
+  ```
+  cd ~
 
-echo "hello" > ~/dataset-out/1.txt
-echo "world" > ~/model-out/2.txt
-```
+  mkdir dataset-out
+
+  mkdir model-out
+
+  echo "hello" > ~/dataset-out/1.txt
+
+  echo "world" > ~/model-out/2.txt
+  ```
 
 ## Add VM Port
-* Login Azure Portal from Browser > Click `Networking` > Click `Add inbound security rule` > Click `Destination port ranges` > Input `80` > Click `Add`
+* On Chrome
+  * Login Azure Portal from Browser > Click `Networking` > Click `Add inbound security rule` > Click `Destination port ranges` > Input `80` > Click `Add`
 
 ## Run Docker Image
-```
-sudo docker run -d -p 80:80 --name=test-dev -v /home/ACCOUNT/dataset-out:/dataset -v /home/ACCOUNT/model-out:/model mmosconii/docker-python:0.1
-```
+* On VM
+  ```
+  sudo docker run -d -p 80:80 --name=test-dev -v /home/ACCOUNT/dataset-out:/dataset -v /home/ACCOUNT/model-out:/model mmosconii/docker-python:0.1
+  ```
 
 # Check Docker Container
-```
-sudo docker ps -a
-```
+* On VM
+  ```
+  sudo docker ps -a
+  ```
 
 # Docker Container Log
-```
-sudo docker logs -f test-dev
-```
+* On VM
+  ```
+  sudo docker logs -f test-dev
+  ```
 
 # Into the Container
-```
-sudo docker exec -it test-dev bash
-```
+* On VM
+  ```
+  sudo docker exec -it test-dev bash
+  ```
 
 # Stop Container
-```
-sudo docker ps -a
-sudo docker stop CONTAINER-ID
-```
+* On VM
+  ```
+  sudo docker ps -a
+  
+  sudo docker stop CONTAINER-ID
+  ```
 
 # Remove Container
-```
-sudo docker ps -a
-sudo docker rm CONTAINER-ID
-```
+* On VM
+  ```
+  sudo docker ps -a
+  
+  sudo docker rm CONTAINER-ID
+  ```
 
 # Remove Docker Image
-```
-sudo docker image prune -a
-```
+* On VM
+  ```
+  sudo docker image prune -a
+  ```
 
 ## Contributor
 * [Huang, Cheng-Chuan](https://github.com/ArcherHuang)
