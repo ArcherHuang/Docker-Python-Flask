@@ -70,6 +70,7 @@ sudo docker stop CONTAINER-ID
 
 # Remove Container
 ```
+sudo docker ps -a
 sudo docker rm CONTAINER-ID
 ```
 
