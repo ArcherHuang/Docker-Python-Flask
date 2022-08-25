@@ -1,4 +1,4 @@
-# How To Build and Deploy a Flask Application Using Docker on Ubuntu VM
+# How To Build and Deploy a Flask Application Using Docker on Ubuntu
 
 ## Contents
 - [Flow](#flow)
