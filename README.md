@@ -90,19 +90,19 @@
   sudo docker ps -a
   ```
 
-# Docker Container Log
+## Docker Container Log
 * On VM
   ```
   sudo docker logs -f test-dev
   ```
 
-# Into the Container
+## Into the Container
 * On VM
   ```
   sudo docker exec -it test-dev bash
   ```
 
-# Stop Container
+## Stop Container
 * On VM
   ```
   sudo docker ps -a
@@ -110,7 +110,7 @@
   sudo docker stop CONTAINER-ID
   ```
 
-# Remove Container
+## Remove Container
 * On VM
   ```
   sudo docker ps -a
@@ -118,7 +118,7 @@
   sudo docker rm CONTAINER-ID
   ```
 
-# Remove Docker Image
+## Remove Docker Image
 * On VM
   ```
   sudo docker image prune -a
