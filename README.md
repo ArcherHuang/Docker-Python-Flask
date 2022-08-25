@@ -100,6 +100,11 @@
   sudo docker ps -a
   ```
 
+## Check API from Browser
+* On Local
+
+![./images/check-api.png]
+
 ## Docker Container Log
 * On VM
   ```
