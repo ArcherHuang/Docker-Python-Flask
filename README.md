@@ -42,6 +42,9 @@ echo "hello" > ~/dataset-out/1.txt
 echo "world" > ~/model-out/2.txt
 ```
 
+## Add VM Port
+* Login Azure Portal from Browser > Click `Networking` > Click `Add inbound security rule` > Click `Destination port ranges` > Input `80` > Click `Add`
+
 ## Run Docker Image
 ```
 sudo docker run -d -p 80:80 --name=test-dev -v /home/ACCOUNT/dataset-out:/dataset -v /home/ACCOUNT/model-out:/model mmosconii/docker-python:0.1
