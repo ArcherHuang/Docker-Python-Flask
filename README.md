@@ -103,6 +103,7 @@
 
 ## Check API from Browser
 * On Local
+  * http://VM-IP
   ![](./Images/check-api.png)
 
 ## Docker Container Log
