@@ -1,5 +1,8 @@
 # Docker Python Flask
 
+## Flow
+![](./Image.flow.png)
+
 ## Login
 ```
 ssh ACCOUNT@IP
@@ -16,7 +19,7 @@ sudo ./install-docker.sh
 
 ## Upload flask-sample to VM
 ```
-scp flask-sample ACCOUNT@IP:/home/ACCOUNT
+scp flask-sample/* ACCOUNT@IP:/home/ACCOUNT/flask-sample
 ```
 
 ## Build Docker Image
