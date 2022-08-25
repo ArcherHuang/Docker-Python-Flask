@@ -14,8 +14,8 @@
 - [Check API from Browser](#check-api-from-browser)
 - [Docker Container Log](#docker-container-log)
 - [Into the Container](#into-the-container)
-- [Copy a file from Container to Host VM](#copy-a-file-from-container-to-host-vm)
-- [Copy a file from Host VM to Container](#copy-a-file-from-host-vm-to-container)
+- [Copy a file from Container to VM](#copy-a-file-from-container-to-vm)
+- [Copy a file from VM to Container](#copy-a-file-from-vm-to-container)
 - [Stop Container](#stop-container)
 - [Remove Container](#remove-container)
 - [Remove Docker Image](#remove-docker-image)
@@ -120,7 +120,7 @@
   sudo docker exec -it test-dev bash
   ```
 
-## Copy a file from Container to Host VM
+## Copy a file from Container to VM
 * On VM
 ```
 echo "Lucky seven" > ~/filename.txt
@@ -130,7 +130,7 @@ sudo docker ps -a
 sudo docker cp CONTAINER-ID:/app/filename.txt ~/777.txt
 ```
 
-## Copy a file from Host VM to Container
+## Copy a file from VM to Container
 ```
 sudo docker ps -a
 
