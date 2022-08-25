@@ -33,6 +33,8 @@
   ```
   Download https://github.com/ArcherHuang/Docker-Python-Flask Repository
   
+  cd to Docker-Python-Flask Repository
+  
   scp ./Script/install-docker.sh ACCOUNT@IP:/home/ACCOUNT
   ```
 * On VM
