@@ -23,6 +23,7 @@
 ![](./Images/flow.png)
 
 ## Login
+* On local
 ```
 ssh ACCOUNT@IP
 ```
