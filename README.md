@@ -14,6 +14,7 @@
 - [Check API from Browser](#check-api-from-browser)
 - [Docker Container Log](#docker-container-log)
 - [Into the Container](#into-the-container)
+- [Use Postman to Check API](#use-postman-to-check-api)
 - [Copy a file from Container to VM](#copy-a-file-from-container-to-vm)
 - [Copy a file from VM to Container](#copy-a-file-from-vm-to-container)
 - [Stop Container](#stop-container)
@@ -124,6 +125,12 @@
 * GET API
   ![](./Images/Postman-GET-API.png)
 * POST API
+  * Body
+    ```
+    {
+      "run": 66
+    }
+    ```
   ![](./Images/Postman-POST-API.png)
 
 ## Copy a file from Container to VM
