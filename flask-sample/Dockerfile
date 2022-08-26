@@ -4,15 +4,14 @@ RUN apt-get -y update
 
 RUN pip install --upgrade pip
 
-RUN mkdir /dataset
-RUN mkdir /model
+RUN mkdir /dataset /model
 
 WORKDIR /app
 
-COPY requirements.txt ./
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY . /app
+COPY . .
 
 EXPOSE 80
 

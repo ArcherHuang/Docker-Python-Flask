@@ -46,7 +46,7 @@
   
   cd to Docker-Python-Flask Repository
   
-  scp ./Script/install-docker.sh VM-ACCOUNT@VM-IP:/home/VM-ACCOUNT
+  scp ./Script/install-docker.sh VM-ACCOUNT@VM-IP:~
   ```
 * On VM
   ```
@@ -64,12 +64,14 @@
   ```
 * On Local
   ```
-  scp flask-sample/* VM-ACCOUNT@VM-IP:/home/VM-ACCOUNT/flask-sample
+  scp flask-sample/* VM-ACCOUNT@VM-IP:~/flask-sample
   ```
 
 ## Build Docker Image
 * On VM
   ```
+  cd ~/flask-sample
+
   sudo docker build -t mmosconii/docker-python:0.1 .
   ```
 
@@ -82,11 +84,7 @@
 ## Create Folder
 * On VM
   ```
-  cd ~
-
-  mkdir dataset-out
-
-  mkdir model-out
+  mkdir ~/dataset-out ~/model-out
 
   echo "hello" > ~/dataset-out/1.txt
 
@@ -102,7 +100,7 @@
 ## Run Docker Image
 * On VM
   ```
-  sudo docker run -d -p 80:80 --name=test-dev -v /home/VM-ACCOUNT/dataset-out:/dataset -v /home/VM-ACCOUNT/model-out:/model mmosconii/docker-python:0.1
+  sudo docker run -d -p 80:80 --name=test-dev -v ~/dataset-out:/dataset -v ~/model-out:/model mmosconii/docker-python:0.1
   ```
 
 ## Check Docker Container
@@ -142,6 +140,7 @@
     ```
   ![](./Images/Postman-POST-API.png)
   * Check if the `/model/data.json` file is exist on Container
+    ![](./Images/Postman-POST-API-Detail.png)
 
 ## Copy a file from Container to VM
 * On VM
