@@ -12,7 +12,7 @@ def hello():
 # POST http://VM-IP/store
 # Body
 #   {
-#     "run": 66
+#     "run": 6611
 #   }
 @app.route("/store", methods=["POST"])
 def save_store():
