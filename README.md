@@ -31,6 +31,7 @@
 |  2 | [flask-sample](https://github.com/ArcherHuang/Docker-Python-Flask/tree/main/flask-sample) | Build an web app by using Python and Flask |
 
 ## Flow
+![](./Images/Docker-flow.png)
 ![](./Images/flow.png)
 
 ## Logging in to VM
