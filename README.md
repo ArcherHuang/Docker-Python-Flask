@@ -2,7 +2,7 @@
 
 ## Contents
 - [Files](#files)
-- [Flow](#flow)
+- [Diagram](#diagram)
 - [Logging in to VM](#logging-in-to-vm)
 - [Install Docker Engine](#install-docker-engine)
 - [Upload flask-sample to VM](#upload-flask-sample-to-vm)
@@ -30,9 +30,11 @@
 |  1 |      [Script](https://github.com/ArcherHuang/Docker-Python-Flask/tree/main/Script)      | Install Docker package using this script |
 |  2 | [flask-sample](https://github.com/ArcherHuang/Docker-Python-Flask/tree/main/flask-sample) | Build an web app by using Python and Flask |
 
-## Flow
-![](./Images/Docker-flow.png)
-![](./Images/flow.png)
+## Diagram
+* Flow
+  ![](./Images/Docker-flow.png)
+* Scenario
+  ![](./Images/flow.png)
 
 ## Logging in to VM
 * On Local
