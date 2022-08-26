@@ -26,7 +26,7 @@
 
 ## Files
 | No |  Folder   |   Comment    |
-|----|:-------------:|:---:|
+|:----:|:-------------:|:---:|
 |  1 |      Script      | Install Docker package using the script |
 |  2 | flask-sample | Build an web app by using Python and Flask |
 
