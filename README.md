@@ -120,6 +120,12 @@
   sudo docker exec -it test-dev bash
   ```
 
+## Use Postman to Check API
+* GET API
+  ![](./Images/Postman-GET-API.png)
+* POST API
+  ![](./Images/Postman-POST-API.png)
+
 ## Copy a file from Container to VM
 * On VM
 ```
