@@ -123,8 +123,10 @@
 
 ## Use Postman to Check API
 * GET API
+  * GET http://VM-IP
   ![](./Images/Postman-GET-API.png)
 * POST API
+  * POST http://VM-IP/store
   * Body
     ```
     {
