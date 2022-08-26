@@ -141,6 +141,7 @@
     }
     ```
   ![](./Images/Postman-POST-API.png)
+  * Check if the `/model/data.json` file is exist on vm
 
 ## Copy a file from Container to VM
 * On VM
