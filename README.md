@@ -27,7 +27,7 @@
 ## Files
 | No |  Folder   |   Comment    |
 |:----:|:-------------:|:---:|
-|  1 |      [Script](https://github.com/ArcherHuang/Docker-Python-Flask/tree/main/Script)      | Install Docker package using the script |
+|  1 |      [Script](https://github.com/ArcherHuang/Docker-Python-Flask/tree/main/Script)      | Install Docker package using this script |
 |  2 | [flask-sample](https://github.com/ArcherHuang/Docker-Python-Flask/tree/main/flask-sample) | Build an web app by using Python and Flask |
 
 ## Flow
