@@ -1,6 +1,7 @@
 # How To Build and Deploy a Flask Application Using Docker on Ubuntu
 
 ## Contents
+- [Files](#files)
 - [Flow](#flow)
 - [Logging in to VM](#logging-in-to-vm)
 - [Install Docker Engine](#install-docker-engine)
@@ -22,6 +23,12 @@
 - [Remove Docker Image](#remove-docker-image)
 - [Contributor](#contributor)
 - [License](#license)
+
+## Files
+| No |  Folder   |   Comment    |
+|----|:-------------:|:---:|
+|  1 |      Script      | Install Docker package using the script |
+|  2 | flask-sample | Build an web app by using Python and Flask |
 
 ## Flow
 ![](./Images/flow.png)
